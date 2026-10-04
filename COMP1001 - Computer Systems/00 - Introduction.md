@@ -23,7 +23,7 @@
 #### **Week 1**
 
 - **S1 / Lecture:** introduction to *[[01 - Digital Electronics]]*
-- **S2 / Lecture:** introduction to *Positional Numbering Systems*
+- **S2 / Lecture:** introduction to *[[02 - Positional Numbering System]]*
 
 #### Week 2
 

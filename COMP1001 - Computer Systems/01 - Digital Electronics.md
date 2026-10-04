@@ -1,5 +1,15 @@
 
-## -- How Are Computers Made? --
+## Content:
+
+1) **[[#-- How Computers Are Made --|How Computers Are Made]]**
+2) **[[#-- Digital Computing -- |Digital Computing]]**
+3) **[[#-- Truth Tables --|Truth Tables]]**
+4) **[[#-- Logical Gates --|Logical Gates]]**
+5) **[[#-- Boolean Axioms and Theorems --|Boolean Axioms and Theorems]]**
+6) **[[#-- Half Adder (2-digit) --|Half Adder]]**
+
+
+## -- How Computers Are Made --
 
 1)  It all starts with commond sand, which consists mostly of silicon dioxide (*quarts*)
 
@@ -58,7 +68,7 @@ Truth tables use five standard connectives in statements:
 
 ### **NOT Gate:**
 
-![[Not-Gate (1).webp]]
+![[Not-Gate.webp|79]]
 
 Whatever is input, the opposite state will output, the NOT function is denoted by a horizontal bar over the value or in some cases a single quote mark (')
 
@@ -77,7 +87,7 @@ Whatever is input, the opposite state will output, the NOT function is denoted b
 
 ### AND Gate:
 
-![[And-Gate.webp|58]]
+![[And-Gate.webp|88]]
 
 Both input values must be 1 in order for the output to be 1
 
@@ -94,7 +104,7 @@ Both input values must be 1 in order for the output to be 1
 
 ### OR Gate:
 
-![[Or-Gate.webp|77]]
+![[Or-Gate.webp|87]]
 
 Output will be True if one or more value is true
 
@@ -126,7 +136,7 @@ Outputs true if the values input are different
 
 ### NAND Gate:
 
-![[Nand-Gate.webp|66]]
+![[Nand-Gate.webp|80]]
 
 Combines the use of AND gate and NOT gate. 
 
@@ -145,7 +155,7 @@ The output is the opposite of the AND result
 
 ### NOR Gate:
 
-![[Nor-Gate.webp|76]]
+![[Nor-Gate.webp|80]]
 
 Combines the use of OR gate and NOT gate. 
 
@@ -270,4 +280,41 @@ AND distributes over OR and vice versa, OR distributes over AND (just like multi
 When you invert an OR operation it will become AND with inverted signals, this will apply vice versa with an invert AND operation becoming OR with inverted signals.
 
 - (x . y)' = x' + y'
-- 
+- (x + y)' = x' . y'
+
+
+
+
+## -- Half Adder (2-digit) --
+
+A ***Half Adder*** is a logical circuit that carries addition of binary signals. It is the simplest adder using two logic gates (XOR, AND). The half adder can only handle two 1-bit numbers allowing a total value of 2 -- a full adder would allow a maximum value of 3.
+
+
+*Circuit Diagram:                                       Logic Diagram:*
+
+![[Half-Adder-Circuit.png|147]]                               ![[Half-Adder-Logic.png|250]]
+
+
+*Truth Table:*
+
+
+| *INPUT* | *INPUT* | *OUTPUT* | *OUTPUT* |
+| :-----: | :-----: | :------: | :------: |
+|  **A**  |  **B**  |  **S**   |  **C**   |
+|    0    |    0    |    0     |    0     |
+|    0    |    1    |    1     |    0     |
+|    1    |    0    |    1     |    0     |
+|    1    |    1    |    0     |    1     |
+
+Carry represents the value for the next digit placeholder whilst sum is the actual result, just like in binary addition, for example:
+
+![[Binary-Addition-Example.png|269]]  
+
+Here we have the small (1's) that represent the carry for the next digit placeholder and the sum would be 0, and if it was three (1's) the sum would be 1 with a carry of 1.
+
+
+
+## -- Full Adder (2-digit) --
+
+A ***Full Adder*** can be thought of as two ***Half Adders*** connected together, with the first half adder passing it's carry to the second half adder. This means the full adder can take 3 inputs, this allows it to be chained to make ***Ripple Carry Adders***.
+
