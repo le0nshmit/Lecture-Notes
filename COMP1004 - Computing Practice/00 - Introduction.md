@@ -30,17 +30,17 @@ This will scrutinize my ability to present work in various forms: as a poster, a
 
 ## -- Course Schedule --
 
-**Week 1)**  Introduction
-**Week 2)**  Software Development Lifecycle (**SDLC**)
-**Week 3)**  SDLC Design Phase 
-**Week 4)**  Introduction to Web and HTML
-**Week 5)**  Consolodation Week
-**Week 6)**  CSS
-**Week 7)**  HTML
-**Week 8)**  Web Game Development
-**Week 9)**  Careers and Professional Skills
-**Week 10)** Project Communication and Management Techniques
-**Week 11)** Standup Meetings
+- [x] **Week 1)**  Introduction
+- [ ] **Week 2)**  Software Development Lifecycle (**SDLC**)
+- [ ] **Week 3)**  SDLC Design Phase 
+- [ ] **Week 4)**  Introduction to Web and HTML
+- [ ] **Week 5)**  Consolodation Week
+- [ ] **Week 6)**  CSS
+- [ ] **Week 7)**  HTML
+- [ ] **Week 8)**  Web Game Development
+- [ ] **Week 9)**  Careers and Professional Skills
+- [ ] **Week 10)** Project Communication and Management Techniques
+- [ ] **Week 11)** Standup Meetings
 
 
 
